@@ -1,0 +1,229 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+input,
+button,
+textarea,
+th,
+td,
+figure {
+  margin: 0;
+  padding: 0;
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+}
+
+img {
+  max-width: 100% !important;
+  height: auto !important;
+  border: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+.darkmode {
+  --darkModeBlack: #ffffff;
+  --darkModeGray: #767676;
+  --darkModeWhite: #26292c;
+  --darkModeDarkGreen: #8f4343;
+  --darkModeLightGreen: #ffffff;
+  --darkModeDarkBrown: #ffffff;
+  --darkModeBrown: #ffffff;
+  --darkModeLinghtBrown: #ffffff;
+}
+
+.color-example {
+  background-color: var(--darkModeDarkGreen, #334c3f);
+}
+
+:root {
+  --ps: calc(100vw / 1440);
+  --pp: calc(100vw / 768);
+  --ph: calc(100vw / 468);
+}
+
+.news-list {
+    padding: 50px 0 50px 40px ;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    flex: 1;
+    background: var(--darkModeWhite, #ffffff);
+}
+.news-list .title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: var(--darkModeDarkBrown, #767067);
+}
+.news-list .main-news-list {
+  width: 800px;
+  height: auto;
+  padding: 15px;
+  border: 1px solid var(--darkModeBlack, #26292c);
+  color: var(--darkModeBlack, #26292c);
+  margin-bottom: 30px;
+}
+.news-list .main-news-list .main-news-box {
+  width: 100%;
+  padding: 10px 0 20px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  border-bottom: 1px solid var(--darkModeGray, #767676);
+}
+.news-list .main-news-list .main-news-box img {
+  width: 200px;
+  height: 200px;
+}
+.news-list .main-news-list .main-news-box .info-box {
+  margin-left: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+.news-list .main-news-list .main-news-box .info-box .title {
+  width: 100%;
+  margin-bottom: 10px;
+  color: var(--darkModeBlack, #26292c);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.news-list .main-news-list .main-news-box .info-box .title h5 {
+  font-size: 17px;
+  font-weight: 700;
+}
+.news-list .main-news-list .main-news-box .info-box .title span {
+  font-size: 13px;
+}
+.news-list .main-news-list .main-news-box .info-box .content {
+  font-size: 15px;
+  color: var(--darkModeGray, #767676);
+}
+
+.news-list .main-news-list .main-news-box .info-box .content .content-title{
+    margin: 10px 0 5px;
+    color: var(--darkModeBlack, #26292c);
+    font-size: 15px;
+    font-weight: 700;
+  }
+
+.news-list .main-news-list .btnArea {
+  width: 100%;
+  padding: 10px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.news-list .main-news-list .btnArea a {
+  padding: 3px 10px;
+  background: var(--darkModeDarkBrown, #767067);
+  color: var(--darkModeWhite, #ffffff);
+  border: none;
+  font-size: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.news-list .main-news-list .btnArea a:hover {
+  background: var(--darkModeBlack, #26292c);
+}
+.news-list .main-news-list .btnArea .deleteBtn {
+    padding: 3px 10px;
+    border: none;
+    font-size: 15px;
+    color: var(--darkModeWhite, #ffffff);
+  background: rgb(168, 45, 45);
+}
+.news-list .main-news-list .btnArea .deleteBtn:hover {
+  background: rgb(219, 72, 72);
+}
+
+.cancelBtn{
+    padding: 3px 10px;
+    background: var(--darkModeDarkBrown, #767067);
+    color: var(--darkModeWhite, #ffffff);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.modal{
+    --bs-modal-border-radius: 0;
+}
+
+.info-box .content p{
+    font-size: 15px;
+    color: var(--darkModeGray, #767676);
+    margin: 2px 0;
+}
+
+.title .note-title{
+color: rgb(168, 45, 45);
+font-size: 15px;
+}
+.title .note-content{
+    color: var(--darkModeGray, #767676);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.news-list .main-news-list .btnArea input{
+    border-radius: none;
+}
+
+.news-list .main-news-list .btnArea .show-content{
+    color: var(--darkModeGray, #767676);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.red{
+    color: rgb(168, 45, 45) !important;
+    font-weight: 700 !important;
+    font-size: 17px !important;
+}
+
+.blue{
+    color: rgb(51, 124, 172) !important;
+}
