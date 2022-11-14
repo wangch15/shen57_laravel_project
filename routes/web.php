@@ -39,9 +39,9 @@ Route::get('/admin/add-main-news',[BackStageController::class,'mainAdd'])->middl
 Route::get('/admin/news-list',[BackStageController::class,'newsList'])->middleware(['auth', 'verified']);
 Route::get('/admin/add-news',[BackStageController::class,'newsAdd'])->middleware(['auth', 'verified']);
 
-Route::get('/admin/register', function () {
-    return view('welcome');
-});
+// Route::get('/admin/register', function () {
+//     return view('welcome');
+// });
 
 //新增消息
 Route::post('/admin/addnews',[BackStageController::class,'addnews']);
