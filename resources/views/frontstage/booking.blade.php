@@ -10,7 +10,7 @@
 @endsection
 
 @section('title')
-    訂 Booking
+森五七行館 - 訂 Booking
 @endsection
 @section('css')
     <link rel="stylesheet" href="{{asset('/css/booking.css')}}">
