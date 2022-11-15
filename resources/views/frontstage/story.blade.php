@@ -9,6 +9,11 @@
 而在炙熱的沙漠中，意外現身的一片 森林，
 『 森．五七行館 』之名便由此而生。">
 <meta property="og:title" content="森五七行館 / 故事起源">
+<meta name="description" content="有人說，人生就像是一場旅行，
+旅途中所有「無期而遇」的美好，串起了我們的一生。
+而在炙熱的沙漠中，意外現身的一片 森林，
+『 森．五七行館 』之名便由此而生"/>
+
 @endsection
 
 @section('title')

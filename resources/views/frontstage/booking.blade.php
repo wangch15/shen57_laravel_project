@@ -5,6 +5,8 @@
 <meta property="og:image" content="https://wangch15.github.io/shen57web/img/index/banner.jpg">
 <meta property="og:description" content="訂房流程、注意事項、訂房須知、退訂說明">
 <meta property="og:title" content="森五七行館 / 訂房須知">
+<meta name="description" content="墾丁民宿、四人包棟、屏東住宿 - 訂房流程、注意事項、訂房須知、退訂說明"/>
+
 @endsection
 
 @section('title')

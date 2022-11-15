@@ -5,6 +5,7 @@
 <meta property="og:image" content="https://wangch15.github.io/shen57web/img/index/banner.jpg">
 <meta property="og:description" content="森7 - 和風館房型資訊">
 <meta property="og:title" content="森五七行館 / 和風館">
+<meta name="description" content="墾丁民宿、四人包棟、屏東住宿 - 森7 - 和風館房型資訊"/>
 @endsection
 
 @section('title')
