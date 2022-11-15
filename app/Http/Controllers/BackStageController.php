@@ -152,14 +152,16 @@ class BackStageController extends Controller
 
         $editAll = Mainnews::get();
         if($show == 1){
-            //把所有資料庫的東西都先取消顯示並儲存，再把當前那一筆改為顯示在首頁
+            //如果id是當前指定id標註為顯示，如果不是當前id標註為不顯示
             foreach ($editAll as $item) {
-                $item->show = 0;
+                $itemId = $item->id;
+                if($itemId == $id){
+                    $item->show = 1;
+                }else{
+                    $item->show = 0;
+                }
                 $item->save();
             }
-            $editone->show = $show;
-        }else if($show == 0){
-            $editone->show = $show;
         }
 
         //隱藏打勾,把值改為true or false
