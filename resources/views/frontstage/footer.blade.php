@@ -23,7 +23,7 @@
                   </div>
                   <div class="footer-community">
                      <!-- LINE-QRcode按鈕 -->
-                     <button type="button" class="community-line qrcode-open" onclick="openwindow()"><img src="{{asset('/img/footer/line.svg')}}" alt="屏東-恆春民宿-森五七行館-line"></button>
+                     <button type="button" class="community-line qrcode-open" onclick="openwindow()"><img src="{{asset('/img/footer/line.svg')}}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-line"></button>
                         <!-- LINE-QRcode彈跳視窗 -->
                         <div class="linebox show-dialog">
                            <!-- linebox-bg 視窗內背景 -->
@@ -38,8 +38,8 @@
                               <button type="button" class="qrcode-close" onclick="closewindow()">關閉視窗</button>
                            </div>
                         </div>
-                     <a href="https://www.instagram.com/shen57hostel/" target="_blank"><img src="{{asset('/img/footer/instagram.svg')}}" alt="屏東-恆春民宿-森五七行館-instagram"></a>
-                     <a href="https://www.facebook.com/shen57hostel2016" target="_blank"><img src="{{asset('/img/footer/facebook.svg')}}" alt="屏東-恆春民宿-森五七行館-facebook"></a>
+                     <a href="https://www.instagram.com/shen57hostel/" target="_blank"><img src="{{asset('/img/footer/instagram.svg')}}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-instagram"></a>
+                     <a href="https://www.facebook.com/shen57hostel2016" target="_blank"><img src="{{asset('/img/footer/facebook.svg')}}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-facebook"></a>
                   </div>
                </div>
             </div>

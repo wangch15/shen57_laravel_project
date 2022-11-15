@@ -24,7 +24,7 @@
                 <div class="b-step-card">
                     <div class="b-step-bg-left">
                         <div class="b-step-left-box">
-                            <img src="{{asset('/img/booking/booking--01-icon.svg')}}" alt="屏東-恆春民宿-森五七行館-來電預約">
+                            <img src="{{asset('/img/booking/booking--01-icon.svg')}}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-來電預約">
                             <!-- 訂-流程-內容 -->
                             <div class="b-step-content">
                                 <div>
@@ -52,15 +52,15 @@
                                                 </span>
                                                 <div>
                                                     <button class="community-line qr-open" onclick="openwindow()"><img src="{{asset('/img/booking/line-white.svg')}}"
-                                                            alt="屏東-恆春民宿-森五七行館-line"></button>
+                                                            alt="屏東-恆春民宿-墾丁民宿-森五七行館-line"></button>
                                                 </div>
                                             </div>
                                             <div class="message-facebook">
                                                 <span><a href="htts://zh-tw.facebook.com/shen57hostel2016/"
                                                         target="_blank">森˙五七行館</a></span>
                                                 <div class="message-facebook-triangle">
-                                                    <img src="{{asset('/img/booking/triangle-white-right.svg')}}" alt="">
-                                                    <img src="{{asset('/img/booking/triangle-white-right.svg')}}" alt="">
+                                                    <img src="{{asset('/img/booking/triangle-white-right.svg')}}" alt="屏東-恆春民宿-森五七行館">
+                                                    <img src="{{asset('/img/booking/triangle-white-right.svg')}}" alt="屏東-恆春民宿-森五七行館">
                                                 </div>
                                             </div>
                                         </div>
@@ -76,7 +76,7 @@
                 <div class="b-step-card">
                     <div class="b-step-bg-middle">
                         <div class="b-step-middle-box">
-                            <img src="{{asset('/img/booking/booking--02-icon.svg')}}" alt="屏東-恆春民宿-森五七行館-確認資訊">
+                            <img src="{{asset('/img/booking/booking--02-icon.svg')}}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-確認資訊">
                             <!-- 訂-流程-內容 -->
                             <div class="b-step-content">
                                 <!-- 訂-流程-內容-確認資訊 -->
@@ -97,7 +97,7 @@
                 <div class="b-step-card">
                     <div class="b-step-bg-right">
                         <div class="b-step-right-box">
-                            <img src="{{asset('/img/booking/booking--03-icon.svg')}}" alt="屏東-恆春民宿-森五七行館-訂金付款">
+                            <img src="{{asset('/img/booking/booking--03-icon.svg')}}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-訂金付款">
                             <!-- 訂-流程-內容 -->
                             <div class="b-step-content">
                                 <!-- 訂-流程-內容-訂金付款 -->

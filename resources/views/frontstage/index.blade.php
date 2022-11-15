@@ -9,7 +9,7 @@
 @endsection
 
 @section('title')
-    森五七行館
+    森五七行館 - Shen57 hostel
 @endsection
 
 @section('css')
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <div class="words-box">
-                <img src="{{ asset('/img/intro/intro-fonts.svg') }}" alt="">
+                <img src="{{ asset('/img/intro/intro-fonts.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-logo">
                 <!-- SPINNING SQUARES -->
                 <div class="spinner-box2">
                     <div class="pulse-container">
@@ -62,10 +62,10 @@
                 </ul>
             </nav>
             <div class="logo">
-                <img src="{{ asset('/img/index/index-banner-logo4-01.svg') }}" alt="">
+                <img src="{{ asset('/img/index/index-banner-logo4-01.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-logo">
             </div>
             <a href="#index-intro" class="scroll-btn">
-                <img src="{{ asset('/img/index/scroll.svg') }}" alt="">
+                <img src="{{ asset('/img/index/scroll.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-scroll">
             </a>
         </section>
 
@@ -74,7 +74,7 @@
                 <div class="intro-top">
                     <div class="intro-en" data-aos="fade-right">Shen 57 hostel</div>
                     <div class="intro-logo" data-aos="fade-left">
-                        <img src="{{ asset('/img/index/shen-logo.svg') }}" alt="">
+                        <img src="{{ asset('/img/index/shen-logo.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-logo">
                     </div>
                 </div>
                 <div class="intro-text">
@@ -105,7 +105,7 @@
                     <div class="wrap">
                         <div class="rooms-top">
                             <div class="rooms-logo">
-                                <img src="{{ asset('/img/index/rooms.svg') }}" alt="">
+                                <img src="{{ asset('/img/index/rooms.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-房型介紹">
                             </div>
                             <div class="rooms-text">
                                 <span>將手輕輕撫在耳邊，聆聽貝殼捎來的私密話語，</span>
@@ -130,7 +130,7 @@
                                     室內坪數 <span>50</span> 坪，室外約 <span>150</span> 坪
                                 </div>
                                 <div class="rooms-arrow"></div>
-                                <img src="{{ asset('/img/index/shen-five.jpg') }}" alt="">
+                                <img src="{{ asset('/img/index/shen-five.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-時尚館房型介紹">
 
                                 <div class="rooms-hover-bg">
                                     <div class="rooms-hover">
@@ -157,7 +157,7 @@
                                     室內坪數 <span>50</span> 坪，室外約 <span>150</span> 坪
                                 </div>
                                 <div class="rooms-arrow"></div>
-                                <img src="{{ asset('/img/index/shen-seven.jpg') }}" alt="">
+                                <img src="{{ asset('/img/index/shen-seven.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-和風館房型介紹">
 
                                 <div class="rooms-hover-bg">
                                     <div class="rooms-hover">
@@ -188,7 +188,7 @@
                     <div class="left">
                         <div class="news-title">
                             <div class="news-title-pic">
-                                <img src="{{ asset('/img/index/news.svg') }}" alt="">
+                                <img src="{{ asset('/img/index/news.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-最新消息">
                             </div>
                             <div class="news-title-text">​最新消息•活動訊息•優惠專案</div>
                         </div>
@@ -204,7 +204,7 @@
                         </div>
                     </div>
                     <div class="news-content-pic">
-                        <img src="{{ $mainnews[0]->img_path }}" alt="">
+                        <img src="{{ $mainnews[0]->img_path }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-主要消息">
                     </div>
                 </div>
             </div>
@@ -212,13 +212,13 @@
 
         <section class="story">
             <div class="story-bg" data-aos="fade-right">
-                <img src="{{ asset('/img/index/index02.png') }}" alt="">
+                <img src="{{ asset('/img/index/index02.png') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-起源">
             </div>
             <div class="wrap-1440" data-aos="fade-left" data-aos-delay="400">
                 <div class="story-content">
                     <div class="story-title">
                         <div class="story-title-pic">
-                            <img src="{{ asset('/img/index/story.svg') }}" alt="">
+                            <img src="{{ asset('/img/index/story.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-民宿故事">
                         </div>
                         <div class="story-text">
                             <p>
@@ -241,7 +241,7 @@
                     <div class="left">
                         <div class="location-title">
                             <div class="location-title-pic">
-                                <img src="{{ asset('/img/index/location.svg') }}" alt="">
+                                <img src="{{ asset('/img/index/location.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-交通指引">
                             </div>
                             <div class="location-title-text">行館資訊•交通指引</div>
                         </div>
@@ -280,7 +280,7 @@
                     </div>
                     <div class="location-info-pic">
                         <img srcset="/img/index/map@1x.png 1x,/img/index/map@2x.png 2x"
-                            src="{{ asset('/img/index/map@1x.png') }}" alt="">
+                            src="{{ asset('/img/index/map@1x.png') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-指引地圖">
                     </div>
                 </div>
         </section>

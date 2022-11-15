@@ -21,7 +21,7 @@
         <section class="container">
             <!-- 行-頁面標題 -->
             <div class="title-area">
-                <img src="{{ asset('img/location/calligraphy-location.svg') }}" alt="">
+                <img src="{{ asset('img/location/calligraphy-location.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-交通指引">
                 <div class="title-area-infobox">
                     <h5>​行館資訊 · 交通指引 · 旅遊地圖</h5>
                 </div>
@@ -32,7 +32,7 @@
                 <div class="info-map-box">
                     <!-- 地圖區域 -->
                     <div class="map-area">
-                        <img src="{{ asset('img/location/index-location-cover-phone.jpg') }}" alt="">
+                        <img src="{{ asset('img/location/index-location-cover-phone.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-指引地圖">
                     </div>
                     <!-- 行館資訊 -->
                     <div class="info-area-top">
@@ -92,35 +92,35 @@
             <img srcset="/img/location/travel-map-phone.png 1x, /img/location/travel-map-phone@2x.png 2x"
                 src="{{ asset('img/location/travel-map-phone.png') }}" usemap="#image-map-phone" class="travel-map">
             <map name="image-map-phone">
-                <area target="_blank" alt="屏東海生館" title="屏東海生館" href="https://goo.gl/maps/QRAeeUDL3smFE4TQ7"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-屏東海生館" title="屏東海生館" href="https://goo.gl/maps/QRAeeUDL3smFE4TQ7"
                     coords="132,29,258,183" shape="rect">
-                <area target="_blank" alt="鹿境梅花鹿生態園區" title="鹿境梅花鹿生態園區" href="https://goo.gl/maps/xCxW6uSWE89NtG23A"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-鹿境梅花鹿生態園區" title="鹿境梅花鹿生態園區" href="https://goo.gl/maps/xCxW6uSWE89NtG23A"
                     coords="300,36,487,219" shape="rect">
-                <area target="_blank" alt="萬里桐" title="萬里桐" href="https://goo.gl/maps/cUQuAmrz3YDjzoZX7"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-萬里桐" title="萬里桐" href="https://goo.gl/maps/cUQuAmrz3YDjzoZX7"
                     coords="48,267,141,371" shape="rect">
-                <area target="_blank" alt="恆春古城" title="恆春古城" href="https://goo.gl/maps/Ncm7UR1UmSs2MJSx7"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-恆春古城" title="恆春古城" href="https://goo.gl/maps/Ncm7UR1UmSs2MJSx7"
                     coords="222,261,416,378" shape="rect">
-                <area target="_blank" alt="出火" title="出火" href="https://goo.gl/maps/2s5yjM6tPeu2YuZj7"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-出火" title="出火" href="https://goo.gl/maps/2s5yjM6tPeu2YuZj7"
                     coords="421,244,519,325" shape="rect">
-                <area target="_blank" alt="墾丁森林公園" title="墾丁森林公園" href="https://goo.gl/maps/YDVoNU3xunxXBaz9A"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-墾丁森林公園" title="墾丁森林公園" href="https://goo.gl/maps/YDVoNU3xunxXBaz9A"
                     coords="475,346,621,379" shape="rect">
-                <area target="_blank" alt="南灣" title="南灣" href="https://goo.gl/maps/7ppzkhZhirYVLR2W6"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-南灣" title="南灣" href="https://goo.gl/maps/7ppzkhZhirYVLR2W6"
                     coords="376,392,512,506" shape="rect">
-                <area target="_blank" alt="白沙灣" title="白沙灣" href="https://goo.gl/maps/zvSz5Q9XMFZjBY7q9"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-白沙灣" title="白沙灣" href="https://goo.gl/maps/zvSz5Q9XMFZjBY7q9"
                     coords="56,431,192,573" shape="rect">
-                <area target="_blank" alt="森五七行館" title="森五七行館" href="https://goo.gl/maps/y9epKuTUXdYVUL1k8"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森五七行館" title="森五七行館" href="https://goo.gl/maps/y9epKuTUXdYVUL1k8"
                     coords="217,461,315,563" shape="rect">
-                <area target="_blank" alt="貓鼻頭" title="貓鼻頭" href="https://goo.gl/maps/9s6DXGa5GKuGxm9UA"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-貓鼻頭" title="貓鼻頭" href="https://goo.gl/maps/9s6DXGa5GKuGxm9UA"
                     coords="238,615,402,723" shape="rect">
-                <area target="_blank" alt="鵝鑾鼻燈塔" title="鵝鑾鼻燈塔" href="https://goo.gl/maps/PJe3tXhEGyTuhWz86"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-鵝鑾鼻燈塔" title="鵝鑾鼻燈塔" href="https://goo.gl/maps/PJe3tXhEGyTuhWz86"
                     coords="640,595,755,777" shape="rect">
-                <area target="_blank" alt="龍磐" title="龍磐" href="https://goo.gl/maps/YyCnpXPjAwjBcjeW9"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-龍磐" title="龍磐" href="https://goo.gl/maps/YyCnpXPjAwjBcjeW9"
                     coords="647,520,742,564" shape="rect">
                 <area target="_blank" alt="墾丁大街" title="墾丁大街" href="https://goo.gl/maps/FaqUxLwZpdt8Exjw9"
                     coords="499,523,621,560" shape="rect">
-                <area target="_blank" alt="風吹砂" title="風吹砂" href="https://goo.gl/maps/UMdMMTtzGHv1su267"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-風吹砂" title="風吹砂" href="https://goo.gl/maps/UMdMMTtzGHv1su267"
                     coords="649,409,762,452" shape="rect">
-                <area target="_blank" alt="佳樂水遊樂區" title="佳樂水遊樂區" href="https://goo.gl/maps/LJiDjpaNLsGd14zLA"
+                <area target="_blank" alt="屏東-恆春民宿-墾丁民宿-森五七行館-佳樂水遊樂區" title="佳樂水遊樂區" href="https://goo.gl/maps/LJiDjpaNLsGd14zLA"
                     coords="681,270,864,392" shape="rect">
             </map>
         </div>
@@ -155,7 +155,7 @@
        fjs.parentNode.insertBefore(js, fjs);
      }(document, 'script', 'facebook-jssdk'));
    </script>
-   
+
 @endsection
 
 @section('js')

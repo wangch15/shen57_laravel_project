@@ -28,20 +28,20 @@
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper swiper-mine">
                     <div class="swiper-slide">
-                        <img src="{{ asset('img/story/story-1.jpg') }}" alt="">
+                        <img src="{{ asset('img/story/story-1.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森五七環境">
                     </div>
                     <div class="swiper-slide gridbox">
-                        <div class="left-side" alt=""
+                        <div class="left-side" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森五七環境"
                             style="background-image: url({{ asset('img/story/story-2.jpg') }});"></div>
-                        <div class="right-side-top" alt=""
+                        <div class="right-side-top" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森五七環境"
                             style="background-image: url({{ asset('img/story/story-3.jpg') }});">
                         </div>
-                        <div class="right-side-bottom" alt=""
+                        <div class="right-side-bottom" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森五七環境"
                             style="background-image: url({{ asset('img/story/story-4.jpg') }});">
                         </div>
                     </div>
                     <div class="swiper-slide">
-                        <img src="{{ asset('img/story/story-5.jpg') }}" alt="">
+                        <img src="{{ asset('img/story/story-5.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森五七環境">
                     </div>
                 </div>
             </div>
@@ -105,7 +105,7 @@
                 </div>
                 <div class="s-text-right">
                     <div class="s-word">
-                        <img src="{{ asset('img/story/calligraphy-story.svg') }}" alt="">
+                        <img src="{{ asset('img/story/calligraphy-story.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-起源">
                     </div>
                     <div class="s-word-en">
                         <span>Story</span>

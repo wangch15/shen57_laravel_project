@@ -21,7 +21,7 @@
         <section class="container">
             <!-- 訊-頁面標題 -->
             <div class="title-area">
-                <img src="{{ asset('img/news/calligraphy-news.svg') }}" alt="">
+                <img src="{{ asset('img/news/calligraphy-news.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-最新消息">
                 <div class="title-area-infobox">
                     <h5>最新消息 · 活動訊息 · 優惠專案</h5>
                 </div>

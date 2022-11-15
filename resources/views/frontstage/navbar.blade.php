@@ -3,7 +3,7 @@
     <div id="header-nav">
         <!-- 頁首-logo -->
         <div class="header-logo">
-            <a href="/home"><img src="{{ asset('/img/header/header-logo.svg') }}" alt="屏東-恆春民宿-森五七行館"></a>
+            <a href="/home"><img src="{{ asset('/img/header/header-logo.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館"></a>
         </div>
         <!-- 頁首-菜單 -->
         <div class="header-menu">
@@ -36,7 +36,7 @@
                         <!-- hambox-logo -->
                         <div class="hambox-logobox">
                             <a href="/home"><img src="{{ asset('/img/header/header-hamlogo.svg') }}"
-                                    class="hambox-logo" alt="屏東-恆春民宿-森五七行館"></a>
+                                    class="hambox-logo" alt="屏東-恆春民宿-墾丁民宿-森五七行館"></a>
                             <div class="hambox-btn"></div>
                         </div>
                         <div class="hambox-infobox">
@@ -72,13 +72,13 @@
                                                 <button type="button" class="community-line qrcode-open"
                                                     onclick="openwindow()"><img
                                                         src="{{ asset('/img/header/line.svg') }}"
-                                                        alt="屏東-恆春民宿-森五七行館-line"></button>
+                                                        alt="屏東-恆春民宿-墾丁民宿-森五七行館-line"></button>
                                                 <a href="https://www.instagram.com/shen57hostel/" target="_blank"><img
                                                         src="{{ asset('/img/header/instagram.svg') }}"
-                                                        alt="屏東-恆春民宿-森五七行館-instagram"></a>
+                                                        alt="屏東-恆春民宿-墾丁民宿-森五七行館-instagram"></a>
                                                 <a href="https://www.facebook.com/shen57hostel2016" target="_blank"><img
                                                         src="{{ asset('/img/header/facebook.svg') }}"
-                                                        alt="屏東-恆春民宿-森五七行館-facebook"></a>
+                                                        alt="屏東-恆春民宿-墾丁民宿-森五七行館-facebook"></a>
                                             </div>
                                         </div>
                                         <div class="info-right-box">

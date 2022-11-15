@@ -27,43 +27,43 @@
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <span>#1 _ 和風館 _ 二階大廳</span>
-                        <img srcset="/img/rooms/room7/room7-1-pc@1x.jpg 1x,/img/rooms/room7/room7-1-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-1-pc@1x.jpg') }}" alt="屏東-恆春民宿-森七和風館-二階大廳">
+                        <img srcset="/img/rooms/room7/room7-1-pc@1x.jpg 1x,/img/rooms/room7/room7-1-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-1-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-二階大廳">
                     </div>
                     <div class="swiper-slide">
                         <span>#2 _ 和風館 _ 一階大廳</span>
-                        <img srcset="/img/rooms/room7/room7-2-pc@1x.jpg 1x,/img/rooms/room7/room7-2-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-2-pc@1x.jpg') }}" alt="屏東-恆春民宿-森七和風館-一階大廳">
+                        <img srcset="/img/rooms/room7/room7-2-pc@1x.jpg 1x,/img/rooms/room7/room7-2-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-2-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-一階大廳">
                     </div>
                     <div class="swiper-slide">
                         <span>#3 _ 和風館 _ 一階和室</span>
-                        <img srcset="/img/rooms/room7/room7-3-pc@1x.jpg 1x,/img/rooms/room7/room7-3-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-3-pc@1x.jpg') }}" alt="屏東-恆春民宿-森七和風館-一階和室">
+                        <img srcset="/img/rooms/room7/room7-3-pc@1x.jpg 1x,/img/rooms/room7/room7-3-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-3-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-一階和室">
                     </div>
                     <div class="swiper-slide">
                         <span>#4 _ 和風館 _ 二階和室</span>
-                        <img srcset="/img/rooms/room7/room7-4-pc@1x.jpg 1x,/img/rooms/room7/room7-4-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-4-pc@1x.jpg') }}" alt="屏東-恆春民宿-森七和風館-二階和室">
+                        <img srcset="/img/rooms/room7/room7-4-pc@1x.jpg 1x,/img/rooms/room7/room7-4-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-4-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-二階和室">
                     </div>
                     <div class="swiper-slide">
                         <span>#5 _ 和風館 _ 二階大廳</span>
-                        <img srcset="/img/rooms/room7/room7-5-pc@1x.jpg 1x,/img/rooms/room7/room7-5-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-5-pc@1x.jpg') }}" alt="屏東-恆春民宿-森七和風館-二階大廳">
+                        <img srcset="/img/rooms/room7/room7-5-pc@1x.jpg 1x,/img/rooms/room7/room7-5-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-5-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-二階大廳">
                     </div>
                     <div class="swiper-slide">
                         <span>#6 _ 和風館 _ 一階大廳</span>
-                        <img srcset="/img/rooms/room7/room7-6-pc@1x.jpg 1x,/img/rooms/room7/room7-6-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-6-pc@1x.jpg') }}" alt="屏東-恆春民宿-森七和風館-一階大廳">
+                        <img srcset="/img/rooms/room7/room7-6-pc@1x.jpg 1x,/img/rooms/room7/room7-6-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-6-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-一階大廳">
                     </div>
                     <div class="swiper-slide">
                         <span>#7 _ 和風館 _ 浴室</span>
-                        <img srcset="/img/rooms/room7/room7-7-pc@1x.jpg 1x,/img/rooms/room7/room7-7-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-7-pc@1x.jpg') }}" alt="屏東-恆春民宿-森七和風館-浴室">
+                        <img srcset="/img/rooms/room7/room7-7-pc@1x.jpg 1x,/img/rooms/room7/room7-7-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-7-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-浴室">
                     </div>
                     <div class="swiper-slide">
                         <span>#8 _ 和風館 _ 浴室</span>
-                        <img srcset="/img/rooms/room7/room7-8-pc@1x.jpg 1x,/img/rooms/room7/room7-8-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-8-pc@1x.jpg') }}" alt="屏東-恆春民宿-森七和風館-浴室">
+                        <img srcset="/img/rooms/room7/room7-8-pc@1x.jpg 1x,/img/rooms/room7/room7-8-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-8-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-浴室">
                     </div>
                     <div class="swiper-slide">
                         <span>#9 _ 中式早餐</span>
-                        <img srcset="/img/rooms/room7/room7-9-pc@1x.jpg 1x,/img/rooms/room7/room7-9-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-9-pc@1x.jpg') }}" alt="屏東-恆春民宿-森五七行館-中式早餐">
+                        <img srcset="/img/rooms/room7/room7-9-pc@1x.jpg 1x,/img/rooms/room7/room7-9-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-9-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森五七行館-中式早餐">
                     </div>
                     <div class="swiper-slide">
                         <span>#10 _ 西式早餐</span>
-                        <img srcset="/img/rooms/room7/room7-10-pc@1x.jpg 1x,/img/rooms/room7/room7-10-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-10-pc@1x.jpg') }}" alt="屏東-恆春民宿-森五七行館-西式早餐">
+                        <img srcset="/img/rooms/room7/room7-10-pc@1x.jpg 1x,/img/rooms/room7/room7-10-phone.jpg 2x" src="{{ asset('/img/rooms/room7/room7-10-pc@1x.jpg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森五七行館-西式早餐">
                     </div>
                 </div>
             </div>
@@ -81,11 +81,11 @@
                 <div class="r-pattern">
                     <div class="r-first-floor">
                         <h4>一階</h4>
-                        <img src="{{ asset('/img/rooms/room7-1f.svg') }}" alt="屏東-恆春民宿-森七和風館-一樓平面圖">
+                        <img src="{{ asset('/img/rooms/room7-1f.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-一樓平面圖">
                     </div>
                     <div class="r-second-floor">
                         <h4>二階</h4>
-                        <img src="{{ asset('/img/rooms/room7-2f.svg') }}" alt="屏東-恆春民宿-森七和風館-二樓平面圖">
+                        <img src="{{ asset('/img/rooms/room7-2f.svg') }}" alt="屏東-恆春民宿-墾丁民宿-森五七行館-森七和風館-二樓平面圖">
                     </div>
                 </div>
                 <!-- 宿-上方資訊 -->
