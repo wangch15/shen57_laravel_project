@@ -1,8 +1,8 @@
 @extends('frontstage.template')
 
 @section('meta')
-<meta property="og:url" content="https://wangch15.github.io/shen57web/room5">
-<meta property="og:image" content="https://wangch15.github.io/shen57web/img/index/banner.jpg">
+<meta property="og:url" content="https://www.shen57.com/">
+<meta property="og:image" content="https://www.shen57.com/img/index/banner.jpg">
 <meta property="og:description" content="森5 - 時尚館房型資訊">
 <meta property="og:title" content="森五七行館 / 時尚館">
 <meta name="description" content="墾丁民宿、四人包棟、屏東住宿 - 森5 - 時尚館房型資訊"/>

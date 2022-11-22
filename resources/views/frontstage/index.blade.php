@@ -1,8 +1,8 @@
 @extends('frontstage.template')
 
 @section('meta')
-    <meta property="og:url" content="https://wangch15.github.io/shen57web/">
-    <meta property="og:image" content="https://wangch15.github.io/shen57web/img/index/banner.jpg">
+    <meta property="og:url" content="https://www.shen57.com/">
+    <meta property="og:image" content="https://www.shen57.com/img/index/banner.jpg">
     <meta property="og:description"
         content="來自無期而遇的歸宿，它就像是走在炙熱沙漠中，意外現身的一片森林，給予驚喜和轉折；又像是在下一個轉角處，突如其來遇見的幸福，這個家不是別人，它是「森・五七行館」。">
     <meta property="og:title" content="森五七行館 / 墾丁民宿、四人包棟">

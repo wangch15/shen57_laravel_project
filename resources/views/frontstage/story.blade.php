@@ -1,8 +1,8 @@
 @extends('frontstage.template')
 
 @section('meta')
-<meta property="og:url" content="https://wangch15.github.io/shen57web/story">
-<meta property="og:image" content="https://wangch15.github.io/shen57web/img/index/banner.jpg">
+<meta property="og:url" content="https://www.shen57.com/">
+<meta property="og:image" content="https://www.shen57.com/img/index/banner.jpg">
 <meta property="og:description" content="
 有人說，人生就像是一場旅行，
 旅途中所有「無期而遇」的美好，串起了我們的一生。
