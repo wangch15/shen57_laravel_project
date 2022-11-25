@@ -111,39 +111,26 @@ body {
             transform: rotate(359deg);
   }
 }
-
 @-webkit-keyframes changeColor {
-  from {
-  }
   to {
     background-color: white;
   }
 }
-
 @keyframes changeColor {
-  from {
-  }
   to {
     background-color: white;
   }
 }
-
 @-webkit-keyframes showWords {
-  from {
-  }
   to {
     opacity: 1;
   }
 }
-
 @keyframes showWords {
-  from {
-  }
   to {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes showPulse {
   from {
     opacity: 0;
@@ -152,7 +139,6 @@ body {
     opacity: 1;
   }
 }
-
 @keyframes showPulse {
   from {
     opacity: 0;
@@ -161,7 +147,6 @@ body {
     opacity: 1;
   }
 }
-
 @-webkit-keyframes pulse {
   from {
     opacity: 1;
@@ -169,12 +154,11 @@ body {
             transform: scale(1);
   }
   to {
-    opacity: .25;
+    opacity: 0.25;
     -webkit-transform: scale(0.75);
             transform: scale(0.75);
   }
 }
-
 @keyframes pulse {
   from {
     opacity: 1;
@@ -182,12 +166,11 @@ body {
             transform: scale(1);
   }
   to {
-    opacity: .25;
+    opacity: 0.25;
     -webkit-transform: scale(0.75);
             transform: scale(0.75);
   }
 }
-
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -215,19 +198,16 @@ body {
   z-index: 999;
   pointer-events: none;
 }
-
 @media (max-width: 768px) {
   #intro {
     display: none;
   }
 }
-
 #intro .spinner-box {
   width: 170px;
   height: 210px;
   background-color: transparent;
 }
-
 #intro .logo-box {
   width: 170px;
   height: 110px;
@@ -241,7 +221,6 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 #intro .logo-box .circle-border {
   width: 85px;
   height: 85px;
@@ -256,8 +235,8 @@ body {
       -ms-flex-align: center;
           align-items: center;
   border-radius: 50%;
-  background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgba(63, 249, 220, 0)), to(white));
-  background: linear-gradient(0deg, rgba(63, 249, 220, 0) 33%, white 100%);
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(33%, rgba(63, 249, 220, 0)), to(rgb(255, 255, 255)));
+  background: linear-gradient(0deg, rgba(63, 249, 220, 0) 33%, rgb(255, 255, 255) 100%);
   -webkit-animation: spin 1s linear 0s;
           animation: spin 1s linear 0s;
   -webkit-animation-iteration-count: 1;
@@ -265,7 +244,6 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-
 #intro .logo-box .circle-core {
   width: 100%;
   height: 100%;
@@ -287,16 +265,13 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 #intro .logo-box .circle-core svg {
   width: 52px;
   height: 57px;
 }
-
 #intro .logo-box .circle-core svg path {
   fill: #26292c;
 }
-
 #intro .words-box {
   width: 170px;
   height: 100px;
@@ -315,7 +290,6 @@ body {
           flex-direction: column;
   position: relative;
 }
-
 #intro .words-box img {
   width: 152px;
   height: 72px;
@@ -327,7 +301,6 @@ body {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
-
 #intro .spinner-box2 {
   position: absolute;
   top: 100%;
@@ -352,7 +325,6 @@ body {
           animation-fill-mode: forwards;
   /* PULSE BUBBLES */
 }
-
 #intro .spinner-box2 .pulse-container {
   width: 50px;
   display: -webkit-box;
@@ -365,24 +337,20 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-
 #intro .spinner-box2 .pulse-bubble {
   width: 10px;
   height: 10px;
   border-radius: 50%;
   background-color: white;
 }
-
 #intro .spinner-box2 .pulse-bubble-1 {
   -webkit-animation: pulse 0.6s ease 0s infinite alternate;
           animation: pulse 0.6s ease 0s infinite alternate;
 }
-
 #intro .spinner-box2 .pulse-bubble-2 {
   -webkit-animation: pulse 0.6s ease 0.3s infinite alternate;
           animation: pulse 0.6s ease 0.3s infinite alternate;
 }
-
 #intro .spinner-box2 .pulse-bubble-3 {
   -webkit-animation: pulse 0.6s ease 0.6s infinite alternate;
           animation: pulse 0.6s ease 0.6s infinite alternate;
@@ -390,5 +358,4 @@ body {
 
 .noact {
   opacity: 0 !important;
-}
-/*# sourceMappingURL=intro.css.map */
+}/*# sourceMappingURL=intro.css.map */

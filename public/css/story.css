@@ -106,7 +106,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 @media (max-width: 468px) {
   #story {
     margin-top: 50px;
@@ -133,7 +132,6 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 @media (max-width: 468px) {
   .container {
     padding: 0 10px;
@@ -153,28 +151,24 @@ body {
           align-items: center;
   padding-bottom: 38px;
 }
-
 @media (max-width: 468px) {
   .s-swiper {
     padding-top: 76px;
     padding-bottom: 45px;
   }
 }
-
 .s-swiper div {
   width: 600px;
   height: 600px;
   background-color: lightgray;
   margin-bottom: 30px;
 }
-
 @media (max-width: 768px) {
   .s-swiper div {
     width: calc(600 * var(--pp));
     height: calc(600 * var(--pp));
   }
 }
-
 @media (max-width: 468px) {
   .s-swiper div {
     width: calc(468 * var(--ph));
@@ -194,20 +188,17 @@ body {
           align-items: center;
   margin-bottom: 80px;
 }
-
 @media (max-width: 468px) {
   .s-intro {
     display: none;
   }
 }
-
 .s-intro p {
   font-size: 15px;
   color: var(--darkModeDarkBrown, #767067);
   line-height: 23px;
   text-align: center;
 }
-
 .s-intro span {
   font-weight: 900;
 }
@@ -231,7 +222,6 @@ body {
   height: auto;
   position: relative;
 }
-
 @media (max-width: 468px) {
   .s-text {
     -webkit-box-orient: vertical;
@@ -248,13 +238,11 @@ body {
 .s-text-left {
   padding-right: 130px;
 }
-
 @media (max-width: 468px) {
   .s-text-left {
     padding-right: 0;
   }
 }
-
 .s-text-left .t-1 p,
 .s-text-left .t-2 p,
 .s-text-left .t-3 p {
@@ -264,16 +252,14 @@ body {
   line-height: 26px;
   color: var(--darkModeDarkBrown, #767067);
 }
-
 @media (max-width: 468px) {
   .s-text-left .t-1 p,
-  .s-text-left .t-2 p,
-  .s-text-left .t-3 p {
+.s-text-left .t-2 p,
+.s-text-left .t-3 p {
     line-height: 18px;
     font-size: 14px;
   }
 }
-
 .s-text-left .t-3 p {
   margin-bottom: 0;
 }
@@ -297,7 +283,6 @@ body {
   right: 0;
   position: absolute;
 }
-
 @media (max-width: 468px) {
   .s-text-right {
     width: 100%;
@@ -311,19 +296,16 @@ body {
     position: unset;
   }
 }
-
 .s-text-right .s-word {
   width: 68px;
   height: 80px;
 }
-
 @media (max-width: 468px) {
   .s-text-right .s-word {
     width: 40px;
     height: 44px;
   }
 }
-
 .s-text-right .s-word-en {
   font-size: 27px;
   color: var(--darkModeBrown, #e1dcd7);
@@ -332,7 +314,6 @@ body {
           writing-mode: vertical-lr;
   font-weight: bold;
 }
-
 @media (max-width: 468px) {
   .s-text-right .s-word-en {
     font-size: 17px;
@@ -341,5 +322,4 @@ body {
 
 .test {
   width: 100px;
-}
-/*# sourceMappingURL=story.css.map */
+}/*# sourceMappingURL=story.css.map */

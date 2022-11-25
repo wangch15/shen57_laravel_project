@@ -174,7 +174,6 @@ body {
       -ms-flex-align: start;
           align-items: flex-start;
 }
-
 .swiper-slide span {
   -webkit-writing-mode: vertical-lr;
       -ms-writing-mode: tb-lr;
@@ -184,13 +183,11 @@ body {
   font-size: 14px;
   font-weight: 600;
 }
-
 .swiper-slide img {
   width: 100%;
   height: 100%;
   border-radius: 4px;
 }
-
 @media (max-width: 1024px) {
   .swiper-slide img {
     border-radius: unset;
@@ -290,7 +287,6 @@ body {
           align-items: center;
   position: relative;
 }
-
 @media (max-width: 468px) {
   .progress {
     width: 20px;
@@ -314,7 +310,6 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
-
 @media (max-width: 468px) {
   .line-origin {
     transform: translate(78%, -50%);
@@ -364,8 +359,6 @@ body {
         flex-basis: 100%;
   }
 }
-
 .noShow {
   display: none;
-}
-/*# sourceMappingURL=rooms-swiper.css.map */
+}/*# sourceMappingURL=rooms-swiper.css.map */
