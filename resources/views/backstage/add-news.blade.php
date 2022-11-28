@@ -56,6 +56,7 @@
                 </div>
                 <div class="btnArea">
                     <button type="submit">新增消息</button>
+                    <a href="/admin/news-list">取消</a>
                 </div>
             </form>
         </section>

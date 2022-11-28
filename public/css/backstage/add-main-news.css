@@ -140,11 +140,15 @@ textarea {
   justify-content: flex-end;
   align-items: start;
 }
+
 .add-news .btnArea button {
-  padding: 3px 10px;
-  background: var(--darkModeDarkBrown, #767067);
-  color: var(--darkModeWhite, #ffffff);
-  border: none;
+    padding: 3px 10px;
+    background: var(--darkModeDarkBrown, #767067);
+    color: var(--darkModeWhite, #ffffff);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    margin-right: 10px;
 }
 .add-news .btnArea button:hover {
   background: var(--darkModeBlack, #26292c);
@@ -160,3 +164,15 @@ textarea {
 .red{
     color: rgb(168, 45, 45);
 }
+
+.btnArea a {
+    padding: 3px 10px;
+    background: var(--darkModeDarkBrown, #767067);
+    color: var(--darkModeWhite, #ffffff);
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+  }
+.btnArea a:hover {
+    background: var(--darkModeBlack, #26292c);
+  }
