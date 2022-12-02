@@ -16,10 +16,11 @@
 
 @section('main')
     <main class="add-news">
-        <div class="title">
-            Screen Size Report
+        <div class="title-box">
+            <span class="title">Screen Size Report</span>
         </div>
         <section class="add-input-box">
+            <div class="countPeople-box"><span class="countPeople">總瀏覽人數：{{$total}}</span></div>
             <table>
                 <tr>
                     <th>Screen Size Resolution</th>

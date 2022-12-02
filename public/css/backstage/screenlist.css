@@ -88,11 +88,25 @@ textarea {
   flex: 1;
   background: var(--darkModeWhite, #ffffff);
 }
+.add-news .title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
 .add-news .title {
   font-size: 17px;
   font-weight: 700;
-  margin-bottom: 30px;
   color: var(--darkModeDarkBrown, #767067);
+}
+.add-news .countPeople-box{
+    display: flex;
+    justify-content: flex-end;
+}
+.add-news .countPeople {
+    font-size: 13px;
+    color:#26292c;
+    margin:0 10px 5px;
 }
 .add-news .add-input-box {
   width: 800px;
