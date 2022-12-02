@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\FilesController;
 use App\Models\Mainnews;
 use App\Models\News;
+use App\Models\Screensizes;
 
 class BackStageController extends Controller
 {
@@ -196,5 +197,41 @@ class BackStageController extends Controller
         $editnews->delete();
 
         return redirect('/admin/news-list');
+    }
+
+    
+    public function screencheck(){
+        $screenlist = Screensizes::get();
+        $screenArray = array();
+        foreach ($screenlist as $item) {
+            array_push($screenArray,$item->size);
+        };
+
+        $countScreen = [];
+
+        foreach($screenArray as $item2){
+            if(!isset($countScreen[$item2])){
+                $countScreen[$item2] = [
+                    'title' => $item2,
+                    'count' => 1
+                ];
+            }else{
+                $countScreen[$item2]['count'] = $countScreen[$item2]['count']+1;
+            }
+        };
+
+        $countScreenTotal=[];
+        foreach ($countScreen as $count1){
+            array_push($countScreenTotal,$count1['count']);
+        };
+
+        $total = 0;
+        foreach($countScreenTotal as $countTotal){
+            $total = $total + $countTotal;
+        };
+
+
+
+        return view('backstage.screenlist',compact('countScreen','total'));
     }
 }

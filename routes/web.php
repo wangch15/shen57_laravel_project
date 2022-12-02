@@ -60,3 +60,4 @@ Route::get('/admin/news-del/{id}',[BackStageController::class,'newsDel'])->middl
 Route::get('/admin/main-del/{id}',[BackStageController::class,'mainDel'])->middleware(['auth', 'verified']);
 
 
+Route::get('/admin/screencheck',[BackStageController::class,'screencheck'])->middleware(['auth', 'verified']);
