@@ -24,19 +24,21 @@
             <table>
                 <tr>
                     <th>Screen Size Resolution</th>
+                    <th>Device</th>
                     <th>Visits</th>
                     <th>Percent Bar</th>
                     <th>Percent</th>
                 </tr>
-                @foreach ($countScreen as $item)
+                @foreach ($NewCountArray as $item)
 
                 <?php
-                $percent = sprintf( "%.1f ", $item['count'] / $total * 100);
-                $bar = round($item['count'] / $total * 100);
+                $percent = sprintf( "%.1f ", $item->count / $total * 100);
+                $bar = round($item->count / $total * 100);
                 ?>
                 <tr>
-                    <td>{{$item['title']}}</td>
-                    <td>{{$item['count']}}</td>
+                    <td>{{$item->title}}</td>
+                    <td>{{$item->device}}</td>
+                    <td>{{$item->count}}</td>
                     <td class="bar-box">
                         <div class="bar" style="width: {{$bar}}%;"></div>
                     </td>
