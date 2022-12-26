@@ -127,7 +127,6 @@ header {
   height: 100vh;
   background-size: cover;
   background-position: center top;
-  background-attachment: fixed;
 }
 @media (max-width: 768px) {
   #index .banner {

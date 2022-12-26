@@ -52,6 +52,33 @@
     <script src="{{ asset('/js/line.js') }}"></script>
     {{-- js --}}
     @yield('js')
+
+    {{-- 偵測視窗尺寸 --}}
+    <?php
+    use App\Models\Screensizes;
+    if (!isset($_COOKIE['screen_resolution'])) {
+        echo '<script type="text/javascript">width = screen.width; height=screen.height; document.cookie="screen_resolution="+width+"X"+height;document.cookie="screen_id="+Math.random().toString(36).substring(0,15).substr(2);</script>';
+    } else {
+        //Since Cookie is found so get the screen resolution from  this cookie
+        $screen_id = $_COOKIE['screen_id'];
+        $screen_size = $_COOKIE['screen_resolution'];
+
+        $data = Screensizes::where('screenid', $screen_id)->get();
+        $dataCount = count($data);
+
+        if ($dataCount == 0) {
+            $screen_size = explode('X', $screen_size);
+            $screen_width = $screen_size[0];
+            $screen_height = $screen_size[1];
+            $screensize = $screen_width . 'x' . $screen_height;
+            $result = Screensizes::create([
+                'size' => $screensize,
+                'screenid' => $screen_id,
+            ]);
+        }
+    }
+    ?>
+
 </body>
 
 </html>

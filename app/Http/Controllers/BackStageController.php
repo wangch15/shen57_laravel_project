@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\FilesController;
 use App\Models\Mainnews;
 use App\Models\News;
+use App\Models\Screensizes;
 
 class BackStageController extends Controller
 {
@@ -196,5 +197,60 @@ class BackStageController extends Controller
         $editnews->delete();
 
         return redirect('/admin/news-list');
+    }
+
+
+    public function screencheck(){
+        $screenlist = Screensizes::get();
+        $screenArray = array();
+        foreach ($screenlist as $item) {
+            array_push($screenArray,$item->size);
+        };
+
+        $countScreen = [];
+        $device='';
+        foreach($screenArray as $key=>$item2){
+            //如果沒有資料，生成第一筆資料
+            if(!isset($countScreen[$item2])){
+                //根據回傳寬度判斷裝置是什麼類型
+                $screen_size = explode('x', $item2);
+                if($screen_size[0] > 1024){
+                    $device='Desktop';
+                }elseif($screen_size[0] > 468 && $screen_size[0] < 1024){
+                    $device='Tablet';
+                }else{
+                    $device='Mobile';
+                }
+                //將資料傳入陣列中
+
+                $countScreen[$item2] = (object)[
+                    'count' => 1,
+                    'title' => $item2,
+                    'device' => $device,
+                ];
+            //如果已有資料，幫我們瀏覽人次+1
+            }else{
+                $countScreen[$item2]->count = $countScreen[$item2]->count+1;
+            }
+        };
+
+        arsort($countScreen);
+        $NewCountArray = array();
+        foreach($countScreen as $item){
+            array_push($NewCountArray,$item);
+        }
+
+        //計算所有瀏覽人次
+        $countScreenTotal=[];
+        foreach ($countScreen as $count1){
+            array_push($countScreenTotal,$count1->count);
+        };
+
+        $total = 0;
+        foreach($countScreenTotal as $countTotal){
+            $total = $total + $countTotal;
+        };
+
+        return view('backstage.screenlist',compact('NewCountArray','total'));
     }
 }

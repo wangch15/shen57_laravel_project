@@ -44,19 +44,20 @@ Route::get('/admin/add-news',[BackStageController::class,'newsAdd'])->middleware
 // });
 
 //新增消息
-Route::post('/admin/addnews',[BackStageController::class,'addnews']);
-Route::post('/admin/addmainnews',[BackStageController::class,'addmainnews']);
+Route::post('/admin/addnews',[BackStageController::class,'addnews'])->middleware(['auth', 'verified']);
+Route::post('/admin/addmainnews',[BackStageController::class,'addmainnews'])->middleware(['auth', 'verified']);
 
 //編輯一般消息
-Route::get('/admin/news-edit/{id}',[BackStageController::class,'newsedit']);
-Route::POST('/admin/news-edit-upload/{id}',[BackStageController::class,'newseditchecked']);
+Route::get('/admin/news-edit/{id}',[BackStageController::class,'newsedit'])->middleware(['auth', 'verified']);
+Route::POST('/admin/news-edit-upload/{id}',[BackStageController::class,'newseditchecked'])->middleware(['auth', 'verified']);
 
 //編輯主要消息
-Route::get('/admin/main-edit/{id}',[BackStageController::class,'mainedit']);
-Route::POST('/admin/main-edit-upload/{id}',[BackStageController::class,'maineditchecked']);
+Route::get('/admin/main-edit/{id}',[BackStageController::class,'mainedit'])->middleware(['auth', 'verified']);
+Route::POST('/admin/main-edit-upload/{id}',[BackStageController::class,'maineditchecked'])->middleware(['auth', 'verified']);
 
 //刪除消息
-Route::get('/admin/news-del/{id}',[BackStageController::class,'newsDel']);
-Route::get('/admin/main-del/{id}',[BackStageController::class,'mainDel']);
+Route::get('/admin/news-del/{id}',[BackStageController::class,'newsDel'])->middleware(['auth', 'verified']);
+Route::get('/admin/main-del/{id}',[BackStageController::class,'mainDel'])->middleware(['auth', 'verified']);
 
 
+Route::get('/admin/screencheck',[BackStageController::class,'screencheck'])->middleware(['auth', 'verified']);
