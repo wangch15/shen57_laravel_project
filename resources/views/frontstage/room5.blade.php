@@ -129,11 +129,11 @@
                </div>
                <div class="r-info-top-box">
                   <div class="r-info-top-title">餐&emsp;&emsp;點</div>
-                  <div class="r-info-top-content">附贈早餐</div>
+                  <div class="r-info-top-content">泡麵、蛋</div>
                </div>
                <div class="r-info-top-box">
                   <div class="r-info-top-title">飲品茶點</div>
-                  <div class="r-info-top-content">茶、咖啡、小點心</div>
+                  <div class="r-info-top-content">迎賓水果、茶包、咖啡、小點品</div>
                </div>
             </div>
          </div>
